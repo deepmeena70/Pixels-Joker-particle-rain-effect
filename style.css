@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #090c11;
+}
+
+#text {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: lightgreen;
+    font-size: 54px;
+    text-shadow: 0 0 5px lightgreen;
+    font-family: 'Creepster', cursive;
+}
+
+#canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
